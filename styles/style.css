@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: ubuntu;
+    color: blue;
+    background-color: rgb(225,250,239);
+    background-image: url("../images/fond.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+#fond {
+    border-style: solid;
+    border-width: 1px;
+    background: linear-gradient(to bottom left, rgba(225,225,239,0), rgb(1,160,91) );
+}
+
+span {
+    margin-left: 650px;
+    text-shadow: 2px 2px 4px rgb(46,160,20) ;
+    font-family: Arial;
+    font-size: 24px;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: blue;
+}
+
+hr{
+	width: 80%;
+	height: 2px;
+	border: 0;
+	background-image: linear-gradient(to right, rgba(1, 160, 91, 0), rgba(85, 85, 85, 0.75), rgba(1, 160, 91, 0));
+	box-shadow: 2px 2px 12px #555555;
+}
+
+p{
+	text-align: justify;
+	background: rgba(65,224,155, 0.2);
+	margin-left:50px;
+	margin-right:50px;
+}
+
+p::first-letter{
+	font-family: Arial;
+ 	font-size: 300%;
+  	float: left;
+  	font-weight: bold;
+  	font-style: italic;
+  	text-shadow: 2px 2px 12px #555555;
+}
+
+li{
+	margin-left: 100px;
+	list-style-type: none;
+	background-image: url("../images/puce.png");
+	padding-left: 20px;
+	background-repeat: no-repeat;
+}
+
+a{
+	color: #e32b22;
+	font-variant: small-caps;
+	text-decoration: none;
+	transition-property: color;
+	transition-duration: 1s;
+	transition-timing-function: ease-out;
+}
+
+a:hover{
+	color: #f8291f;
+	text-decoration: underline overline;
+	text-shadow: 1px 1px 1px #913d39;
+}
+
+a:hover,a:focus{
+	color: white;
+}
+
+#berserk{
+    width: 320px;
+    height: 450px;
+}
+#CHOCO{
+    float: right;
+    width: 380px;
+    height: 450px;
+}
